@@ -12,12 +12,12 @@ This shell script can be executed via `curl` to install a set of predefined alia
 ## bash
 
 ```
-curl -sL https://raw.githubusercontent.com/archidote/best-alias-for-linux-terminal/master/install.sh | bash -s bash
+curl -sL https://raw.githubusercontent.com/CyrilEtornam/bash-aliases/master/install.sh | bash -s bash
 ```
 ## zsh
 
 ```
-curl -sL https://raw.githubusercontent.com/archidote/best-alias-for-linux-terminal/master/install.sh | bash -s zsh
+curl -sL https://raw.githubusercontent.com/CyrilEtornam/bash-aliases/master/install.sh | bash -s zsh
 ```
 <br>
 
@@ -27,14 +27,14 @@ curl -sL https://raw.githubusercontent.com/archidote/best-alias-for-linux-termin
 If you want to delete the aliases added by this project, run :
 
 ```
-curl -sL https://raw.githubusercontent.com/archidote/best-alias-for-linux-terminal/master/delete.sh | bash -s bash
+curl -sL https://raw.githubusercontent.com/CyrilEtornam/bash-aliases/master/delete.sh | bash -s bash
 ```
 ## zsh
 
 If you want to delete the aliases added by this project, run :
 
 ```
-curl -sL https://raw.githubusercontent.com/archidote/best-alias-for-linux-terminal/master/delete.sh | bash -s zsh
+curl -sL https://raw.githubusercontent.com/CyrilEtornam/bash-aliases/master/delete.sh | bash -s zsh
 ```
 
 <br>
