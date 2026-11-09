@@ -22,6 +22,22 @@ alias l="ls -alt"
 alias h="history"
 alias ..="cd .."
 alias b="cd -"
+cdls() {
+    if [[ $# -ne 1 ]]; then
+        echo "Usage: cdls <directory>" >&2
+        return 2
+    fi
+
+    cd -- "$1" && ls
+}
+mkcd() {
+    if [[ $# -ne 1 ]]; then
+        echo "Usage: mkcd <directory>" >&2
+        return 2
+    fi
+
+    mkdir -p -- "$1" && cd -- "$1"
+}
 alias listening_local_int_tcp_udp="sudo ss -tlnp"
 alias idp="ps -fp \$1"
 alias ls_active_tcp_connexion="sudo ss -tnp"
